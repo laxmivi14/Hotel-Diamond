@@ -1,0 +1,49 @@
+body {
+    image-orientation:url("B.jpg");
+    height: 500px;
+    position: absolute;
+  }
+  
+  
+  h5 {
+    position: absolute;
+    color: rgb(2, 2, 23);
+    font-size: 30px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+  
+  div {
+    list-style-type: none;
+    margin: 05;
+    padding: 10;
+    overflow: hidden;
+    background-color: #0f0f0f;
+  }
+  img{
+    float:right;
+    margin: 05;
+    padding: 5;
+  }
+a {
+    float:left;
+    position: relative;
+  }
+ 
+ a {
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration:none;
+  }
+  input{
+      position: absolute;
+      color: rgb(2, 2, 23);
+      font-size: 20px;
+      top: 80%;
+      left: 50%;
+      transform: translate(-40%, -40%)
+    }
